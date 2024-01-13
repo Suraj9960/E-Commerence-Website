@@ -1,0 +1,889 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+/* navbar */
+#navbarSupportedContent {
+    padding-left: 480px;
+    color: black;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+
+.nav-item:hover {
+    background-color: red;
+    border-radius: 20px;
+}
+
+.nav-link {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+    transition: 0.6s ease;
+}
+
+li a:hover {
+    color: white;
+}
+
+.slider-img {
+    background-image: url('./Images/slider-bg\ front\ page.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+
+.slider-img h2 {
+    color: #f7444e;
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+}
+
+.slider-img h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #002c3e;
+    line-height: 70px;
+    font-family: 'Playfair Display', serif;
+}
+
+.btn2 {
+    display: inline-block;
+    padding: 12px 45px;
+    background-color: #f7444e;
+    border: 1px solid #f7444e;
+    color: #ffffff;
+    border-radius: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.slider-content {
+    padding-top: 70px;
+    margin-left: 60px;
+}
+
+/* navabar */
+/* ::content */
+.content {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.card {
+    background-color: #002C3E;
+    height: 200px;
+    margin-bottom: 80px;
+
+}
+
+.he {
+    color: #0c0c0c;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    margin-bottom: 0;
+    font-size: 3.0rem;
+    font-weight: bold;
+}
+
+.arrival {
+    background-image: url('./Images/arrival-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 20px;
+    padding-top: 100px;
+}
+
+.card h3 {
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.card p img {
+    padding-left: 150px;
+    margin-top: 40px;
+    height: 66px;
+
+}
+
+.arrival-content {
+    padding-left: 700px;
+}
+
+.arrival-content h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #002c3e;
+    line-height: 70px;
+    font-family: 'Playfair Display', serif;
+}
+
+/* arrival section :end */
+/* product section :start */
+.product-content h2 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #f7444e;
+    line-height: 70px;
+    font-family: 'Playfair Display', serif;
+}
+
+.card-one {
+    width: 280px;
+    text-align: center;
+    height: 300px;
+}
+
+
+.card-one img {
+    width: 130px;
+    height: 160px;
+    margin-bottom: 40px;
+}
+
+.product-content button {
+    margin-left: 430px;
+    margin-bottom: 40px;
+}
+
+/* products section :end */
+/* discount section :start */
+.container-fluid {
+    height: 410px;
+    background-color: #d4ced0;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.container-fluid h2 {
+    padding-top: 60px;
+    font-family: 'Playfair Display', serif;
+    line-height: 70px;
+    font-weight: bold;
+
+}
+
+.box-text {
+    padding-left: 8px;
+    width: 460px;
+    height: 60px;
+    border: none;
+    border-radius: 27px;
+}
+
+/* discount section :end */
+/* footer section :start */
+.footer-panel {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.last {
+    height: 70px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+
+.foot-content {
+    display: inline;
+}
+
+h6 {
+    font-weight: 800;
+}
+
+.foot-content a {
+    text-decoration: none;
+    color: #0c0c0c;
+}
+
+.foot-content div {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.in-te {
+    width: 180px;
+    height: 40px;
+    padding-left: 5px;
+    margin-top: 5px;
+    border-color: transparent;
+    margin-bottom: 10px;
+}
+
+.footer-panel3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* About us section  */
+.about {
+    height: 100px;
+    color: white;
+    padding-top: 25px;
+    background-color: #f7444e;
+    font-family: 'Playfair Display', serif;
+    width: 100%;
+    text-align: center;
+
+}
+
+.arrival1 {
+    background-image: url('./Images/arrival-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 430px;
+    padding-top: 100px;
+}
+
+.arrival-content1 {
+    padding-left: 700px;
+}
+
+.arrival-content1 h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #002c3e;
+    line-height: 70px;
+    font-family: 'Playfair Display', serif;
+}
+
+/* footer css  */
+.f1 {
+    background-color: #002c3e;
+    height: 400px;
+    color: white;
+}
+
+/* product  */
+.product-content h3 {
+    font-size: 56px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans';
+}
+
+/* contact us page  */
+.form-content {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.form-content input {
+    width: 650px;
+    height: 50px;
+    margin-bottom: 15px;
+    border-color: #f5f3ed;
+    padding-left: 8px;
+}
+
+.form-group {
+    width: 650px;
+    height: 50px;
+    border-color: black;
+    padding-left: 8px;
+    margin-left: 340px;
+    margin-bottom: 145px;
+
+}
+
+.form-control {
+    border-color: gray;
+    height: 180px;
+}
+
+
+/* range upto 0px to 600 px */
+@media screen and (max-width:600px) {
+    #navbarSupportedContent {
+        padding-left: 10px;
+        padding-right: 40px;
+        color: black;
+    }
+
+    .slider-img {
+        background-image: url('./Images/slider-bg\ front\ page.jpg');
+        width: 900px;
+        height: 550px;
+    }
+
+    .nav-link {
+        font-size: 16px;
+    }
+
+    .slider-content {
+        padding-top: 70px;
+        margin-left: 20px;
+    }
+
+    .he {
+        color: #0c0c0c;
+        font-family: 'Playfair Display', serif;
+        position: relative;
+        margin-bottom: 0;
+        font-size: 3.0rem;
+        font-weight: bold;
+        margin-left: 50px;
+    }
+
+    .arrival-content {
+        padding-left: 400px;
+    }
+
+    .arrival {
+        background-image: url('./Images/arrival-bg.png');
+        background-repeat: no-repeat;
+        width: 900px;
+        height: 400px;
+        margin-bottom: 20px;
+        padding-top: 100px;
+    }
+
+    .product-content {
+        margin-left: 100px;
+    }
+
+    .product-content button {
+        margin-left: 215px;
+        margin-bottom: 40px;
+    }
+
+    .container {
+        width: 900px;
+    }
+
+    .card-one {
+        width: 300px;
+        text-align: center;
+        height: 340px;
+        margin-bottom: 20px;
+        margin-left: 200px;
+
+    }
+
+
+    .card-one img {
+        width: 130px;
+        height: 160px;
+        margin-bottom: 40px;
+    }
+
+    /* discount section :start */
+    .container-fluid {
+        height: 410px;
+        width: 900px;
+        background-color: #d4ced0;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .container-fluid h2 {
+        padding-top: 60px;
+        font-family: 'Playfair Display', serif;
+        line-height: 70px;
+        font-weight: bold;
+
+    }
+
+    .box-text {
+        padding-left: 8px;
+        width: 460px;
+        height: 60px;
+        border: none;
+        border-radius: 27px;
+    }
+
+    /* discount section :end */
+    .footer-panel {
+
+        width: 900px;
+        height: 300px;
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    .last {
+        height: 70px;
+        width: 900px;
+        color: white;
+        background-color: black;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 15px;
+    }
+
+    .contain12 h2 {
+        width: 700px;
+        padding-left: 150px;
+    }
+
+    .card {
+        margin-left: 300px;
+        width: 300px;
+    }
+
+    .card p img {
+        padding-left: 100px;
+        margin-top: 40px;
+        height: 66px;
+
+    }
+
+    #navbarSupportedContent {
+        padding-left: none;
+        color: black;
+    }
+
+    /* About us section  */
+    .about {
+        height: 100px;
+        color: white;
+        padding-top: 25px;
+        background-color: #f7444e;
+        font-family: 'Playfair Display', serif;
+        width: 900px;
+        text-align: center;
+    
+    }
+
+    /* product section  */
+    .add{
+        height: 40px;
+        color: white;
+        background-color: red;
+        position: absolute;
+        left: 0px;
+        bottom: -40px;
+        opacity: 0;
+    
+    }
+    .add1{
+        height: 40px;
+        color: white;
+        background-color:black;
+        position: absolute;
+        left: 0px;
+        bottom: -60px;
+        opacity: 0;
+    
+    }
+    .card-one:hover .add{
+        opacity: 1;
+        transition: 1s;
+        bottom: 170px;
+        left: 500px;
+        width: 100px;
+        border: none;
+        border-radius: 20px;
+        text-align: center;
+        margin: auto;
+        
+    }
+    .card-one:hover .add1{
+        opacity: 1;
+        transition: 1s;
+        bottom: 120px;
+        left: 120px;
+        width: 100px;
+        border: none;
+        border-radius: 20px;
+        text-align: center;
+        margin: auto;
+        
+    }
+    .card-one:hover a{
+        color: white;
+        text-decoration: none;
+    }
+    .card-one:hover img{
+    
+        opacity: 0.3;
+    }
+    .card-one:hover .row{
+    
+        opacity: 0.3;
+    }
+
+    /* contact us section  */
+    .form-group {
+        margin-left: 0px;
+    }
+    .form-content {
+       margin-left: 120px;
+    }
+    .btn23{
+        margin-top: 20px;
+        margin-left: 320px;
+    }
+    
+
+}
+
+/* range upto 600 px to 900 px */
+@media screen and (max-width:900px) and (min-width:600px) {
+    .slider-img {
+        background-image: url('./Images/slider-bg\ front\ page.jpg');
+        width: 900px;
+        height: 550px;
+    }
+
+    .contain12 h2 {
+        width: 700px;
+        padding-left: 150px;
+    }
+
+    .card {
+        background-color: #002C3E;
+        height: 200px;
+        margin-bottom: 80px;
+        width: 200px;
+        margin-left: 50px;
+    }
+
+    .content {
+        width: 700px;
+    }
+
+    .card h3 {
+        font-size: 18px;
+    }
+
+    .card p img {
+        padding-left: 50px;
+    }
+
+    .arrival {
+        background-image: url('./Images/arrival-bg.png');
+        background-repeat: no-repeat;
+        width: 900px;
+        height: 400px;
+        margin-bottom: 20px;
+        padding-top: 100px;
+    }
+
+    .product-content {
+        margin-left: 50px;
+        margin-right: 0px;
+    }
+
+    .product-content h2 {
+        margin-left: 100px;
+    }
+
+    .product-content button {
+        margin-left: 250px;
+        margin-bottom: 40px;
+    }
+
+    .arrival-content {
+        padding-left: 400px;
+    }
+
+    .card-one h6 {
+        font-size: 12px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .btn34 {
+        width: 10px;
+        text-align: center;
+        margin-left: 50px;
+    }
+
+    .card-one {
+        width: 250px;
+        text-align: center;
+        height: 320px;
+        margin-left: 8px;
+    }
+
+    .card-one img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 40px;
+    }
+
+    .footer-panel {
+
+        width: 900px;
+        height: 300px;
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    .last {
+        height: 70px;
+        width: 900px;
+        color: white;
+        background-color: black;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 15px;
+    }
+
+    /* Discout section  */
+    .container-fluid {
+        height: 410px;
+        width: 900px;
+        background-color: #d4ced0;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .container-fluid h2 {
+        padding-top: 60px;
+        font-family: 'Playfair Display', serif;
+        line-height: 70px;
+        font-weight: bold;
+
+    }
+
+    .box-text {
+        padding-left: 8px;
+        width: 460px;
+        height: 60px;
+        border: none;
+        border-radius: 27px;
+    }
+
+    /* About us section  */
+    .about{
+        height: 100px;
+        color: white;
+        padding-top: 25px;
+        background-color: #f7444e;
+        font-family: 'Playfair Display', serif;
+        width: 900px;
+        text-align: center;
+    
+    }
+
+
+    /* product section  */
+    .product-content h3 {
+        margin-left: 100px;
+    }
+    .card-one:hover .add{
+        opacity: 1;
+        transition: 1s;
+        bottom: 170px;
+        left: 50px;
+        width: 100px;
+        border: none;
+        border-radius: 20px;
+        text-align: center;
+        margin: 0px;
+
+        
+    }
+    .card-one:hover .add1{
+        opacity: 1;
+        transition: 1s;
+        bottom: 120px;
+        left: 120px;
+        width: 100px;
+        border: none;
+        border-radius: 20px;
+        text-align: center;
+        margin: auto;
+        
+    }
+
+    /* contact us section  */
+    .form-group {
+        width: 650px;
+        height: 50px;
+        border-color: black;
+        padding-left: 8px;
+        margin-left: 50px;
+        margin-bottom: 145px;
+    
+    }
+    
+    .form-control {
+        border-color: gray;
+        height: 180px;
+    }
+
+
+}
+
+/* range upto 900 px to 1338 px */
+@media screen and (max-width:1200px) and (min-width:900px) {
+    #navbarSupportedContent {
+        padding-left: 10px;
+        color: black;
+    }
+    .slider-img{
+        width: 100%;
+    }
+
+    .nav-link {
+        margin-left: 20px;
+    }
+
+    .card p img {
+        padding-left: 110px;
+        margin-top: 40px;
+        height: 66px;
+    }
+
+    .arrival-content {
+        padding-left: 500px;
+    }
+
+    .card-one {
+        margin-left: 10px;
+    }
+
+    /* About us section  */
+
+    /* product section  */
+
+    /* contact us section  */
+    .form-group {
+        width: 650px;
+        height: 50px;
+        border-color: black;
+        padding-left: 8px;
+        margin-left: 180px;
+        margin-bottom: 145px;
+    
+    }
+    
+    .form-control {
+        border-color: gray;
+        height: 180px;
+    }
+}
+
+@media screen and (max-width:1338px) and (min-width:1200px) {
+    #navbarSupportedContent {
+        padding-left: 10px;
+        color: black;
+    }
+
+    .nav-link {
+        margin-left: 20px;
+    }
+
+    .card p img {
+        padding-left: 110px;
+        margin-top: 40px;
+        height: 66px;
+    }
+
+    .arrival-content {
+        padding-left: 540px;
+    }
+
+    .card-one {
+        margin-left: 10px;
+    }
+
+    /* About us section  */
+
+    /* product section  */
+
+    /* contact us section  */
+    .form-group {
+        width: 650px;
+        height: 50px;
+        border-color: black;
+        padding-left: 8px;
+        margin-left: 300px;
+        margin-bottom: 145px;
+    
+    }
+    
+    .form-control {
+        border-color: gray;
+        height: 180px;
+    }
+
+}
+.add{
+    height: 40px;
+    color: white;
+    background-color: red;
+    position: absolute;
+    left: 0px;
+    bottom: -40px;
+    opacity: 0;
+
+}
+.add1{
+    height: 40px;
+    color: white;
+    background-color:black;
+    position: absolute;
+    left: 0px;
+    bottom: -60px;
+    opacity: 0;
+
+}
+.card-one:hover .add{
+    opacity: 1;
+    transition: 1s;
+    bottom: 170px;
+    left: 120px;
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    
+}
+.card-one:hover .add1{
+    opacity: 1;
+    transition: 1s;
+    bottom: 120px;
+    left: 120px;
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    
+}
+.card-one:hover a{
+    color: white;
+    text-decoration: none;
+}
+.card-one:hover img{
+
+    opacity: 0.3;
+}
+.card-one:hover .row{
+
+    opacity: 0.3;
+}
